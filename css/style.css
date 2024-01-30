@@ -1,11 +1,14 @@
-*{
-    text-align: center;
+h1 {
+  color: white;
 }
 
-h1{
-    color: white;
+body {
+  background-color: black;
+  text-align: center;
 }
-
-body{
-    background-color: black;
+.ball {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background-color: yellow;
 }
