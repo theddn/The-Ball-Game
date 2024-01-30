@@ -1,14 +1,24 @@
+* {
+  box-sizing: border-box;
+  text-align: center;
+}
+
 h1 {
   color: white;
 }
 
 body {
   background-color: black;
-  text-align: center;
 }
-.ball {
-  height: 100px;
+div {
   width: 100px;
-  border-radius: 50%;
+  height: 100px;
+  margin: auto;
+  margin-bottom: 10px;
+  border-radius: 50%;;
+  line-height: 50px;
+}
+
+.ball {
   background-color: yellow;
 }
