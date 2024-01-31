@@ -12,12 +12,17 @@ body {
 }
 
 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+  font-size: 22px;
+  font-weight: bold;
+
   width: 100px;
   height: 100px;
-  margin: auto;
-  margin-bottom: 10px;
   border-radius: 50%;
-  line-height: 50px;
+  margin: 0 auto;
 }
 
 .ball {
