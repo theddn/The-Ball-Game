@@ -3,9 +3,10 @@
 var ballSize = 100
 var ballStep = 50
 
-function onBallClick() {
-    var elBall = document.querySelector('.ball')
-    elBall.innerText = ballSize + ballStep
-    elBall.style.width = ballSize + ballStep + 'px'
-    elBall.style.height = ballSize + ballStep +'px'
+function onBallClick(elBall) {
+    ballSize += ballStep
+    
+    elBall.innerText = ballSize
+    elBall.style.width = ballSize + 'px'
+    elBall.style.height = ballSize + 'px'
 }
